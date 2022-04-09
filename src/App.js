@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Keyboard } from 'react-native';
+import { StatusBar } from 'react-native';
 
 import getRealm from './services/realm';
 
@@ -117,7 +118,8 @@ export default function App(){
 
   return (
     <Container>
-      <Logo>WhiteList Book's</Logo>
+      <StatusBar backgroundColor="#242633"/>
+      <Logo>White<Logo style={{color: '#737894'}}>List</Logo> Book's</Logo>
 
       <Title>Name</Title>
       <Input 

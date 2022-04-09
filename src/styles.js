@@ -2,14 +2,14 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
     flex: 1;
-    background-color: #373737;
+    background-color: #242633;
     padding-top: 45px;
 `;
 
 export const Logo = styled.Text`
     font-size: 35px;
     text-align: center;
-    color: #fff;
+    color: #DCDCDC;
     font-weight: bold;
 `;
 
@@ -17,7 +17,7 @@ export const Title = styled.Text`
     font-size: 25px;
     margin-left: 15px;
     margin-top: 10px;
-    color: #fff;
+    color: #DCDCDC;
 `;
 
 export const Input = styled.TextInput`
@@ -27,7 +27,8 @@ export const Input = styled.TextInput`
     margin-right: 15px;
     padding: 5px;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #2E303D;
+    color: #DCDCDC;
 `;
 
 export const CenterView = styled.View`
@@ -37,8 +38,9 @@ export const CenterView = styled.View`
 `;
 
 export const ButtonCustom = styled.TouchableOpacity`
-    background-color: #fff;
+    background-color: #737894;
     height: 40px;
+    width: 40%;
     border-radius: 5px;
     padding: 5px;
 `;
@@ -46,6 +48,7 @@ export const ButtonCustom = styled.TouchableOpacity`
 export const ButtonText = styled.Text`
     font-size: 17px;
     text-align: center;
+    color: #DCDCDC;
 `;
 
 export const List = styled.FlatList.attrs({
